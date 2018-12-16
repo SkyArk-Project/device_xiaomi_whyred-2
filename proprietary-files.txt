@@ -1269,9 +1269,17 @@ vendor/lib64/libqmi.so|244f360a868df7d2e4029d617e4656c344d47dd8
 vendor/lib64/libqmiservices.so|5ecf57390ab66b8ebbcd1dbd3869422b5924a9ad
 
 # Radio - from Mi A2 jasmine_sprout 9 PKQ1.180904.001 V10.0.1.0.PDIMIFJ release-keys
--app/datastatusnotification/datastatusnotification.apk|ceafcce87298531a3adb13a87709a1fd65291625
--app/embms/embms.apk|b9999b9cd6869a424b156183d52cd70830fa509f
--app/QtiTelephonyService/QtiTelephonyService.apk|420b39e20a5166940c1e2e55e8d9c92ec910cebb
+-app/datastatusnotification/datastatusnotification.apk
+-app/embms/embms.apk
+-app/QtiTelephonyService/QtiTelephonyService.apk
+etc/permissions/embms.xml
+etc/permissions/qcrilhook.xml
+etc/permissions/telephonyservice.xml
+framework/embmslibrary.jar
+-framework/qcrilhook.jar
+framework/qti-telephony-common.jar|2EBA987AE297A892E895EC1E9A302B41DBE0232E
+framework/QtiTelephonyServicelibrary.jar
+-priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/bin/ATFWD-daemon|e29f4798791f3ba0d653d36b44689863fd5c3506
 vendor/bin/netmgrd|8af41218f025fdebf8fbe940a7b45a589a8153fc
 vendor/bin/port-bridge|e10ab85fc14e2f72817945d481a971894baebbad
